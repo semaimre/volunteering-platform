@@ -72,7 +72,7 @@ proje/
 1️⃣ Bu projeyi bilgisayarınıza klonlayın:
 
 ```bash
-git clone https://github.com/kullanici/gonullu-yonetim.git
+git clone https://github.com/kullanici/volunteering-platform.git
 ```
 
 2️⃣ `config.php` dosyasında veritabanı bilgilerinizi düzenleyin:
