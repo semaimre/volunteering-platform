@@ -96,7 +96,7 @@ http://localhost/proje
 
 ## 📝 Linkler
 - Web Sitesi: [Tıklayınız](http://95.130.171.20/~st23360859020/proje/index.php)
-- Tanıtım Videosu Linki: [Tıklayınız]()
+- Tanıtım Videosu Linki: [Tıklayınız](https://youtu.be/0rshWdZ-zQk)
 - Kaynak Kodlar: [Tıklayınız](https://github.com/semaimre/volunteering-platform/blob/main/phpproje.zip)
 - Sql Sorguları:[Tıklayınız](https://github.com/semaimre/volunteering-platform/blob/main/sorgular.sql)
 
