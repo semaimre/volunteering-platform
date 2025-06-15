@@ -1,48 +1,79 @@
-# Gönüllülük ve Yradımlaşma Platformu
+# 🌟 Gönüllülük ve Yardımlaşma Platformu
 
-Gönüllü Yönetim Sistemi, **PHP, MySQL ve Bootstrap** tabanlı, gönüllüleri ve gönüllü ilanlarını kolayca **yönetmeyi**, **takip etmeyi** ve **organize etmeyi** hedefleyen basit ve etkili bir **web uygulamasıdır**.
-
----
-
-## 🚀 Özellikler
-
-- 🔐 **Kullanıcı Girişi ve Oturum Yönetimi**
-- 👥 **Profil Güncelleme:** Ad, yaş, şehir ve yetenekleri düzenlenebilir.
-- 📝 **Gönüllü İlanları oluşturabilir ve düzenleyebilir**
-- 🙏 **Gönüllüler:** İlanlara gönüllü olarak **başvurabilir**
-- 📁 **Başvurular:** İlan oluşturucusu, kaç kişinin **başvurduğunu** ve **detayları** görebilir
-- 🌍 **Şehir ve Kategori:** İlanlar ve gönüllüler şehir ve ilgi alanlarına göre sınıflandırılabilir
+**Gönüllü Yönetim Sistemi**, PHP, MySQL ve Bootstrap kullanılarak geliştirilmiş bir web uygulamasıdır. Amacı, gönüllüleri ve gönüllü ilanlarını kolayca **yönetmek**, **takip etmek** ve **organize etmek** için sade ve etkili bir çözüm sunmaktır.
 
 ---
 
-## 🛠 Teknoloji Stack
+## 🚀 Temel Özellikler
 
-- **PHP 7+**
-- **MySQL**
-- **HTML, CSS (Bootstrap)**
-- **Javascript (opsiyonel fonksiyonalite)**
-- **PDO** (Veritabanı ile güvenli bağlantı)
+- 🔐 **Kullanıcı Girişi & Oturum Yönetimi**  
+- 👤 **Profil Güncelleme:** Ad, yaş, şehir ve yetenek düzenleme  
+- 📝 **Gönüllü İlanları:** Oluşturma, düzenleme ve listeleme  
+- 🙋‍♂️ **Gönüllü Başvurusu:** Kullanıcıların ilanlara başvurabilmesi  
+- 📋 **Başvuru Takibi:** İlan sahiplerinin başvuranları görmesi  
+- 🌍 **Şehir & Kategori Bazlı Filtreleme**
+
+---
+
+## 📌 Sayfa Detayları
+
+### 🔑 Kullanıcı Girişi  
+Kayıtlı kullanıcılar, `login.php` sayfasından sisteme giriş yapabilir.  
+![Giriş Sayfası](images/login.png)
+
+### 👤 Profil Sayfası  
+Kullanıcılar burada:  
+- Bilgilerini (Ad, yaş, şehir, yetenekler) güncelleyebilir.  
+- Başvurduğun ilanlar listelenir 
+- Açtığı gönüllü ilanlarını ve bu ilanlara yapılan başvuruları görüntüleyebilir.    
+
+![Açtığı İlanlar](images/ilan.png)  
+
+
+
+
+
+![Başvurduğu İlanlar](images/application.png)
+
+### 🙏 Gönüllü Ol Sayfası  
+- Şehir ve kategori bazında filtreleme yaparak uygun ilanları bulabilirsiniz.  
+- Tüm açık gönüllü ilanları listelenir.  
+![Gönüllü Olma - Filtre](images/gonulluol1.png)
+
+
+
+
+
+
+---
+
+## 🛠 Kullanılan Teknolojiler
+
+- PHP 7+  
+- MySQL  
+- HTML & CSS (Bootstrap)  
+- JavaScript (İsteğe bağlı)  
+- PDO (Güvenli veritabanı işlemleri)
 
 ---
 
 ## 📁 Proje Dizini
-
 ```
-.
-├── aboutyou.php    // Ana profil ve gönüllü ekranı
-├── config.php      // PDO ile MySQL bağlantısını oluşturur
-├── login.php       // Giriş ekranı
-├── logout.php      // Oturum kapatma
-├── welcome.php     // Ana sayfa
-├── events/        // Gönüllü ilanları ilə ilgili fonksiyonlar
-├── css/
-├── images/
-├── README.md
-```
-
+proje/
+├── aboutyou.php         
+├── config.php            
+├── index.php             
+├── login.php              
+├── logout.php            
+├── register.php          
+├── search.php             
+├── update_profile.php    
+├── volunteer.php         
+├── volunteer_submit.php   
+├── welcome.php                    
 ---
 
-## ⚙ Kurulum
+## ⚙ Kurulum Adımları
 
 1️⃣ Bu projeyi bilgisayarınıza klonlayın:
 
@@ -50,7 +81,7 @@ Gönüllü Yönetim Sistemi, **PHP, MySQL ve Bootstrap** tabanlı, gönüllüler
 git clone https://github.com/kullanici/gonullu-yonetim.git
 ```
 
-2️⃣ `config.php` içinde **MySQL** bilgilerinizi düzenleyin:
+2️⃣ `config.php` dosyasında veritabanı bilgilerinizi düzenleyin:
 
 ```php
 $dsn = 'mysql:host=localhost;dbname=veritabani_adi;charset=utf8';
@@ -61,56 +92,19 @@ $pdo = new PDO($dsn, $username, $password);
 $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 ```
 
-3️⃣ Apache ya da Nginx içinde oluşturduğunuz directory’ye taşıyın.
+3️⃣ Projeyi Apache ya da Nginx'in ilgili dizinine taşıyın.
 
-4️⃣ Tarayıcınızı açın:
+4️⃣ Tarayıcınızı açın ve aşağıdaki URL'ye gidin:
 
 ```
-http://localhost/gonullu-yonetim/
+http://localhost/proje
 ```
 
----
+## 📝 Linkler
+- Web Sitesi:[Tıklayınız](http://95.130.171.20/~st23360859020)
+- Tanıtım Videosu Linki:[Tıklayınız]()
 
-## 📝 Veritabanı
-
-**volunteers** (kullanıcılar) 
-- `id`
-- `user_id`
-- `fullname`
-- `age`
-- `city`
-- `skills`
-
-**events** (gönüllü ilanları) 
-- `id`
-- `user_id`
-- `title`
-- `category`
-- `city`
-- `created_at`
-
-**applications** (başvurular) 
-- `id`
-- `event_id`
-- `user_id`
-- `applied_at`
 
 ---
 
-## 👥 Katkıda Bulun
 
-1️⃣ Forklayın
-2️⃣ `feature/{yenilik}` dalında çalışmalarınızı yapın
-3️⃣ Pull isteği oluşturun
-4️⃣ Geri bildirime göre düzenleyin
-
----
-
-## 📝 Lisans
-
-MIT
-
----
-
-🚀 İyi çalışmalar!  
-Proje ile ilgili sorularınızı **Issue** oluşturarak belirtebilirsiniz.
