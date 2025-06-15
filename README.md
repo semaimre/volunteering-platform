@@ -1,62 +1,55 @@
 # 🌟 Gönüllülük ve Yardımlaşma Platformu
 
-**Gönüllü Yönetim Sistemi**, PHP, MySQL ve Bootstrap kullanılarak geliştirilmiş bir web uygulamasıdır. Amacı, gönüllüleri ve gönüllü ilanlarını kolayca **yönetmek**, **takip etmek** ve **organize etmek** için sade ve etkili bir çözüm sunmaktır.
+**Gönüllü Yönetim Sistemi**, PHP, MySQL ve Bootstrap kullanılarak geliştirilmiş bir **web uygulamasıdır**.  
+Amacı, gönüllüleri ve gönüllü ilanlarını kolayca **yönetmek**, **takip etmek** ve **organize etmek** için sade ve etkili bir çözüm sunmaktır.
 
 ---
 
 ## 🚀 Temel Özellikler
 
-- 🔐 **Kullanıcı Girişi & Oturum Yönetimi**  
-- 👤 **Profil Güncelleme:** Ad, yaş, şehir ve yetenek düzenleme  
-- 📝 **Gönüllü İlanları:** Oluşturma, düzenleme ve listeleme  
-- 🙋‍♂️ **Gönüllü Başvurusu:** Kullanıcıların ilanlara başvurabilmesi  
-- 📋 **Başvuru Takibi:** İlan sahiplerinin başvuranları görmesi  
-- 🌍 **Şehir & Kategori Bazlı Filtreleme**
+- 🔐 **Kullanıcı Girişi & Oturum Yönetimi**
+- 👤 **Profil Güncelleme:** Ad, yaş, şehir ve yetenekleri düzenleme
+- 📝 **Gönüllü İlanları:** Oluşturma, düzenleme ve listeleme
+- 🙋‍♂️ **Gönüllü Başvurusu:** Kullanıcılar ilanlara kolayca başvurabilir
+- 📋 **Başvuru Takibi:** İlan sahipleri, gelen başvuruları görebilir
+- 🌍 **Şehir & Kategori Bazlı Filtreleme:** İhtiyaca göre arama
 
 ---
 
 ## 📌 Sayfa Detayları
 
-### 🔑 Kullanıcı Girişi  
-Kayıtlı kullanıcılar, `login.php` sayfasından sisteme giriş yapabilir.  
+### 🔑 Kullanıcı Girişi
+Kayıtlı kullanıcılar, `login.php` sayfasından sisteme giriş yapabilir.
+
 ![Giriş Sayfası](images/login.png)
 
-### 👤 Profil Sayfası  
-Kullanıcılar burada:  
-- Bilgilerini (Ad, yaş, şehir, yetenekler) güncelleyebilir.  
-- Başvurduğun ilanlar listelenir 
-- Açtığı gönüllü ilanlarını ve bu ilanlara yapılan başvuruları görüntüleyebilir.    
+### 👤 Profil Sayfası
+Kullanıcılar bu sayfada:
+- Bilgilerini (Ad, yaş, şehir, yetenekler) güncelleyebilir.
+- Başvurduğu ilanları görebilir.
+- Açtığı gönüllü ilanları ve bu ilanlara yapılan başvuruları listeleyebilir.
 
 ![Açtığı İlanlar](images/ilan.png)  
 
-
-
-
-
 ![Başvurduğu İlanlar](images/application.png)
 
-### 🙏 Gönüllü Ol Sayfası  
-- Şehir ve kategori bazında filtreleme yaparak uygun ilanları bulabilirsiniz.  
-- Tüm açık gönüllü ilanları listelenir.  
+### 🙏 Gönüllü Ol Sayfası
+- Şehir ve kategori bazında ilanları filtreleyebilir.
+- Tüm açık gönüllü ilanları bu sayfada listelenir.
+
 ![Gönüllü Olma - Filtre](images/gonulluol1.png)
-
-
-
-
-
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
 
-- PHP 7+  
-- MySQL  
-- HTML & CSS (Bootstrap)  
-- JavaScript (İsteğe bağlı)  
-- PDO (Güvenli veritabanı işlemleri)
+- **PHP 7+**
+- **MySQL**
+- **HTML & CSS (Bootstrap)**
+- **JavaScript (opsiyonel)**
+- **PDO (Güvenli Veritabanı İşlemleri)**
 
 ---
-
 ## 📁 Proje Dizini
 ```
 proje/
