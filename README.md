@@ -91,7 +91,7 @@ $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 4️⃣ Tarayıcınızı açın ve aşağıdaki URL'ye gidin:
 
 ```
-http://localhost/proje
+http://localhost/phpproje
 ```
 
 ## 📝 Linkler
