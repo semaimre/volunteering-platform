@@ -64,8 +64,9 @@ proje/
 ├── volunteer.php         
 ├── volunteer_submit.php   
 ├── welcome.php                    
----
+
 ```
+---
 ## ⚙ Kurulum Adımları
 
 1️⃣ Bu projeyi bilgisayarınıza klonlayın:
