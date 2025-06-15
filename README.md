@@ -95,7 +95,7 @@ http://localhost/proje
 ```
 
 ## 📝 Linkler
-- Web Sitesi: [Tıklayınız](http://95.130.171.20/~st23360859020)
+- Web Sitesi: [Tıklayınız](http://95.130.171.20/~st23360859020/proje/index.php)
 - Tanıtım Videosu Linki: [Tıklayınız]()
 - Kaynak Kodlar: [Tıklayınız](https://github.com/semaimre/volunteering-platform/blob/main/proje.zip)
 
