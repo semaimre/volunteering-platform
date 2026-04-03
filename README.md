@@ -1,29 +1,29 @@
-# 🌟 Gönüllülük ve Yardımlaşma Platformu
+#  Gönüllülük ve Yardımlaşma Platformu
 
 **Gönüllü Yönetim Sistemi**, PHP, MySQL ve Bootstrap kullanılarak geliştirilmiş bir **web uygulamasıdır**.  
 Amacı, gönüllüleri ve gönüllü ilanlarını kolayca **yönetmek**, **takip etmek** ve **organize etmek** için sade ve etkili bir çözüm sunmaktır.
 
 ---
 
-## 🚀 Temel Özellikler
+## Temel Özellikler
 
-- 🔐 **Kullanıcı Girişi & Oturum Yönetimi**
-- 👤 **Profil Güncelleme:** Ad, yaş, şehir ve yetenekleri düzenleme
-- 📝 **Gönüllü İlanları:** Oluşturma, düzenleme ve listeleme
-- 🙋‍♂️ **Gönüllü Başvurusu:** Kullanıcılar ilanlara kolayca başvurabilir
-- 📋 **Başvuru Takibi:** İlan sahipleri, gelen başvuruları görebilir
-- 🌍 **Şehir & Kategori Bazlı Filtreleme:** İhtiyaca göre arama
+-  **Kullanıcı Girişi & Oturum Yönetimi**
+-  **Profil Güncelleme:** Ad, yaş, şehir ve yetenekleri düzenleme
+-  **Gönüllü İlanları:** Oluşturma, düzenleme ve listeleme
+-  **Gönüllü Başvurusu:** Kullanıcılar ilanlara kolayca başvurabilir
+-  **Başvuru Takibi:** İlan sahipleri, gelen başvuruları görebilir
+-  **Şehir & Kategori Bazlı Filtreleme:** İhtiyaca göre arama
 
 ---
 
-## 📌 Sayfa Detayları
+##  Sayfa Detayları
 
-### 🔑 Kullanıcı Girişi
+###  Kullanıcı Girişi
 Kayıtlı kullanıcılar, `login.php` sayfasından sisteme giriş yapabilir.
 
 ![Giriş Sayfası](images/login.png)
 
-### 👤 Profil Sayfası
+###  Profil Sayfası
 Kullanıcılar bu sayfada:
 - Bilgilerini (Ad, yaş, şehir, yetenekler) güncelleyebilir.
 - Başvurduğu ilanları görebilir.
@@ -33,7 +33,7 @@ Kullanıcılar bu sayfada:
 
 ![Başvurduğu İlanlar](images/application.png)
 
-### 🙏 Gönüllü Ol Sayfası
+###  Gönüllü Ol Sayfası
 - Şehir ve kategori bazında ilanları filtreleyebilir.
 - Tüm açık gönüllü ilanları bu sayfada listelenir.
 
@@ -41,7 +41,7 @@ Kullanıcılar bu sayfada:
 
 ---
 
-## 🛠 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 - **PHP 7+**
 - **MySQL**
@@ -50,7 +50,7 @@ Kullanıcılar bu sayfada:
 - **PDO (Güvenli Veritabanı İşlemleri)**
 
 ---
-## 📁 Proje Dizini
+##  Proje Dizini
 ```
 proje/
 ├── aboutyou.php         
@@ -67,7 +67,7 @@ proje/
 
 ```
 ---
-## ⚙ Kurulum Adımları
+##  Kurulum Adımları
 
 1️⃣ Bu projeyi bilgisayarınıza klonlayın:
 
@@ -94,7 +94,7 @@ $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 http://localhost/phpproje
 ```
 
-## 📝 Linkler
+##  Linkler
 - Web Sitesi: [Tıklayınız](http://95.130.171.20/~st23360859020/proje/index.php)
 - Tanıtım Videosu Linki: [Tıklayınız](https://youtu.be/0rshWdZ-zQk)
 - Kaynak Kodlar: [Tıklayınız](https://github.com/semaimre/volunteering-platform/blob/main/phpproje.zip)
