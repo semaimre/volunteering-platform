@@ -46,7 +46,6 @@ Kullanıcılar bu sayfada:
 - **PHP 7+**
 - **MySQL**
 - **HTML & CSS (Bootstrap)**
-- **JavaScript (opsiyonel)**
 - **PDO (Güvenli Veritabanı İşlemleri)**
 
 ---
